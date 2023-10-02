@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    margin: 0 auto;
+    width: 1232px;
+    font-family: 'Open Sans', sans-serif
+}
+
+.features,
+.header-navbar a,
+.heading-container,
+.logo {
+    color: #4d4d4d
+}
+
+header {
+    width: 1032px;
+    height: 80px;
+    padding: 0 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center
+}
+
+.heading-container h1,
+.logo {
+    font-family: Helvetica, sans-serif
+}
+
+.logo {
+    font-size: 40px;
+    text-decoration: none;
+    flex-grow: 5
+}
+
+.demonstration p,
+.header-navbar,
+.heading-container,
+.recent-works-card span {
+    font-size: 16px
+}
+
+.header-navbar {
+    text-align: right;
+    flex-grow: 1
+}
+
+.demonstration,
+.features li,
+.join-us,
+.letters-section ul,
+.recent-works,
+.recent-works-card span {
+    text-align: center
+}
+
+.header-navbar a {
+    padding-left: 50px;
+    text-decoration: none;
+    letter-spacing: .48px
+}
+
+.header-navbar a:hover {
+    text-decoration: underline
+}
+
+.heading-container {
+    width: 1232px;
+    height: 500px;
+    background-image: url("../images/layer-11.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px
+}
+
+.heading-container h1 {
+    font-weight: 400;
+    font-size: 50px;
+    padding-bottom: 5px;
+    letter-spacing: -.5px
+}
+
+.heading-container p {
+    padding-bottom: 20px;
+    letter-spacing: .8px
+}
+
+.heading-container button {
+    padding: 15px 70px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #4d4d4d;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .54px;
+    border: none
+}
+
+.heading-container button:hover {
+    color: #4d4d4d;
+    background-color: #fff
+}
+
+.features ul {
+    width: 1032px;
+    height: 200px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between
+}
+
+.features li {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none
+}
+
+.features li h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1.1px
+}
+
+.features li p {
+    font-size: 14px;
+    color: #727272;
+    line-height: 1.57;
+    letter-spacing: .7px
+}
+
+.demonstration {
+    width: 1032px;
+    margin: 0 100px;
+    padding: 100px 0 0;
+    border-top: 2px solid #e7e7e7;
+    border-bottom: 2px solid #e7e7e7
+}
+
+.demonstration h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.93;
+    letter-spacing: .9px;
+    color: #4d4d4d
+}
+
+.demonstration p {
+    margin: 0 auto;
+    width: 594px;
+    line-height: 1.38;
+    letter-spacing: .48px;
+    color: #727272
+}
+
+.demonstration-video {
+    width: 690px;
+    height: 380px;
+    background-color: #d8d8d8;
+    margin: 80px auto 0;
+    position: relative
+}
+
+.demonstration-video button {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    border-radius: 47px;
+    border: none;
+    top: 148px;
+    left: 293px;
+    cursor: pointer
+}
+
+.demonstration-video button span {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 40px solid #d8d8d8;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    transform: rotate(90deg);
+    top: 27px;
+    left: 32px
+}
+
+.recent-works {
+    width: 1032px;
+    padding: 100px 100px 0
+}
+
+.join-us h3,
+.recent-works h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.93;
+    letter-spacing: 1.5px;
+    color: #4d4d4d
+}
+
+.recent-works-card {
+    padding: 50px 0 100px;
+    width: 1032px;
+    height: 320px;
+    display: flex;
+    justify-content: space-between
+}
+
+.recent-works-card li {
+    width: 230px;
+    height: 320px;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #d2d1d1;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f7f7f7;
+    gap: 100px;
+    cursor: pointer
+}
+
+.recent-works-card span,
+footer {
+    background-color: #3b3b3b
+}
+
+.recent-works-card span {
+    padding: 20px 0;
+    width: 230px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .8px;
+    color: #fff;
+    transition: transform .2s linear;
+    transform-origin: bottom;
+    transform: scale(0)
+}
+
+.join-us p,
+footer {
+    letter-spacing: .7px
+}
+
+.recent-works-card li:hover span {
+    transform: scale(1)
+}
+
+.join-us {
+    width: 1031px;
+    padding: 100px;
+    border: 1px solid #e7e7e7;
+    background-color: #f5f5f5
+}
+
+.letters-section ul,
+footer {
+    width: 1032px;
+    padding: 100px
+}
+
+.join-us p {
+    font-size: 14px;
+    line-height: 1.79;
+    color: #717171;
+    padding-bottom: 30px
+}
+
+.join-us button {
+    padding: 15px 90px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 2px solid #4d4d4d;
+    background-color: rgba(77, 77, 77, 0);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .8px;
+    color: #4d4d4d
+}
+
+.join-us button:hover {
+    color: #fff;
+    background-color: #4d4d4d
+}
+
+.letters-section ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 60px
+}
+
+.letters-section li {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #4d4d4d;
+    background-color: rgba(221, 221, 221, 0);
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #4d4d4d
+}
+
+.letters-section li:hover {
+    background-color: #55acee;
+    border: 2px solid #55acee;
+    color: #fff;
+    cursor: pointer
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size: 12px;
+    line-height: 2.14
+}
+
+.footer-location-details,
+.footer-logo-template-details {
+    flex-grow: 1
+}
+
+footer nav {
+    flex-grow: 2;
+    display: flex
+}
+
+footer,
+footer a {
+    color: #ebebeb
+}
+
+footer nav,
+footer ul {
+    width: 245px;
+    list-style: none
+}
+
+.footer-location-details li:last-child,
+.footer-logo-template-details li:last-child {
+    line-height: 1.79;
+    padding-top: 10px
+}
+
+footer address {
+    width: 200px;
+    font-style: normal
+}
+
+footer h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff
+}
+
+footer nav a,
+footer span {
+    display: block;
+    text-decoration: none
+}
